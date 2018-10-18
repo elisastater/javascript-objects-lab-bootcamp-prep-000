@@ -19,9 +19,10 @@ console.log(recipes, obj);
 
 
 
-function destructivelyUpdateObjectWithKeyAndValue(recipes, Obj2){{var obj = { prop: 1 }
+function destructivelyUpdateObjectWithKeyAndValue(function() {
+      var obj = { prop: 1 }
   
-
+destructivelyUpdateObjectWithKeyAndValue
 recipes.Obj2 = ["prop: 1, prop2: 2"];
 
 return this(recipes.Obj2);
