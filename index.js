@@ -25,7 +25,7 @@ function destructivelyUpdateObjectWithKeyAndValue() {
       var obj=Object.assign({},newobj);
 
 
-return obj
-};
+return obj;
+}
  
 
