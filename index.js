@@ -24,8 +24,10 @@ function destructivelyUpdateObjectWithKeyAndValue() {
       var obj= {prop: 1, prop2: 2};
       var newobj=Object.assign({},obj);
       
-oobj
-return newobj;
+newobj//{prop:1, prop2: 2}
+delete newobj.prop: 1//true
+
+
 }
  
 
