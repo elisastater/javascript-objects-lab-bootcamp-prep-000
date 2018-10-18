@@ -23,7 +23,7 @@ function destructivelyUpdateObjectWithKeyAndValue(recipes, Obj2){
 
 recipes.Obj2 = ["prop: 1, prop2: 2"];
 
-return this.lrecipes.Obj2;
+return this.recipes.Obj2;
 }
  
 
