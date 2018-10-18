@@ -19,8 +19,8 @@ console.log(recipes, obj);
 
 
 
-function destructivelyUpdateObjectWithKeyAndValue(function(obj, newobj)) {
-      var obj = { prop: 1 };'
+function destructivelyUpdateObjectWithKeyAndValue() {
+      
       var newobj= {prop2: 2};
       var obj=Object.assign({},newobj)
 
