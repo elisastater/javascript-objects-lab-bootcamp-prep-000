@@ -24,10 +24,10 @@ function destructivelyUpdateObjectWithKeyAndValue() {
       var obj= {foo: "prop: 1, prop2: 2"};
       var newobj=Object.assign({},obj);
       
-newobj//{prop:1, prop2: 2}
-delete newobj.prop: 1//true
+newobj//{foo: "prop: 1, prop2: 2"};
+delete newobj.foo//true
 
-
+newobj//{}
 }
  
 
