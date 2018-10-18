@@ -19,11 +19,11 @@ console.log(recipes, obj);
 
 
 
-
+function destructivelyUpdateObjectWithKeyAndValue(recipes, Obj2){
 
 recipes.Obj2 = ["prop: 1, prop2: 2"];
 
-return Obj2;
+return recipes.Obj2;
 }
  
 
