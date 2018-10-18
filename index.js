@@ -21,7 +21,7 @@ console.log(recipes, obj);
 
 function destructivelyUpdateObjectWithKeyAndValue() {
       
-      var obj= {prop: 1, prop2: 2};
+      var obj= {foo: "prop: 1, prop2: 2"};
       var newobj=Object.assign({},obj);
       
 newobj//{prop:1, prop2: 2}
